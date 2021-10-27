@@ -6,4 +6,4 @@ EXPOSE 80
 RUN mkdir ~/.streamlit
 WORKDIR /app
 ENTRYPOINT ["streamlit", "run"]
-CMD ["census_app.py"]
+CMD ["app.py"]
